@@ -1,0 +1,328 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* Header */
+.img-1{
+   width: 100%;
+   height: 25rem;
+   background-image: url(../Images/Minimal\ landscape\ black\ and\ white\ [7680x4320].jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.socialMedia{
+    margin-left: 15px;
+}
+.heading-1{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-top: 140px;
+    margin-right: 50px;
+}
+.spacing{
+    margin: 4px;
+}
+.designation{
+    color: #FE0000;
+}
+.side{
+    flex-grow: 0;
+    font-size: 18px;
+ }
+.gap{
+    margin: 0 20px;
+}
+.name{
+    font-size: 30px;
+}
+/* Profile photo */
+.Profile_photo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Profile_photo>div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(../Images/young-sensitive-man-thinking.jpg);
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* Heading center align */
+
+.centering{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+h2{
+    margin: 0;
+}
+.underline{
+    margin: 0;
+    width: 50px;
+    border: 1px solid #FE0000;
+}
+
+/* Education */
+.education-port{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.education{
+    width: 400px;
+    height: auto;
+}
+.separting{
+  display: flex;
+  align-items: center;
+}
+.edu-separate{
+    width: 100%;
+}
+.separting>div{
+    width: 25px;
+    height: 25px;
+    background-color: #FE0000;
+    border-radius: 50%;
+}
+
+/* Skills */
+
+.skill-percentage-align{
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+.skill-percentage-align>div{
+    margin: 0;
+    width: 380px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+.skill-percentage{
+    width: 340px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FE0000;
+}
+.skill-box{
+    width:400px ;
+    height: auto;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-percentage-1{
+    width: 330px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FE0000; 
+}
+.skill-percentage-2{
+    width: 310px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FE0000; 
+}
+.skill-percentage-3{
+    width: 290px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #FE0000; 
+}
+
+/* Portfolio */
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+
+}
+.portfolio>div{
+    width: 300px;
+    height: 450px;
+    border: 2px solid  #FE0000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.extra-large{
+    width: 280px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    color: #FE0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.large{
+    width: 280px;
+    height: 260px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    color: #FE0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small{
+    width: 280px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    color: #FE0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Experience */
+.experience{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience>div{
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.experience-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.details{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.separting-1{
+    width: 25px;
+    height: 25px;
+    background-color: #FE0000;
+    border-radius: 50%;
+}
+.line-1{
+    width: 0.1px;
+    height: 100%;
+    border: 0.1px solid black;
+    opacity: 20%;
+}
+.combined{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.matter{
+    width: 300px;
+    height: auto;
+}
+
+/* Profile */
+
+.profile{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.profile>div{
+    width: 340px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile>div>div{
+    width: 310px;
+}
+
+.size{
+    font-size: 40px;
+    color: #FE0000;
+}
+
+/* -------contact-------- */
+.form-0{
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.form-1{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-2{
+    display: flex;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    height: 40px;
+}
+.message-1{
+    height: 150px;
+}
+button{
+    background-color: #FE0000;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+/* -------footer--------- */
+
+.copyrights{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FE0000;
+    color: white;
+    margin-top: 50px;
+}
